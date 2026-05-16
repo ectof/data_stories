@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.eggs/
+*.egg-info/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Quarto
+/.quarto/
+output/
+
+# Data (keep raw data out of version control)
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# macOS
+.DS_Store

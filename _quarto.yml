@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: output/reports
+
+website:
+  title: "Data Stories"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+
+execute:
+  freeze: auto
